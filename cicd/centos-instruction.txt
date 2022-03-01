@@ -57,7 +57,7 @@ Install all default plugin
 Create the user of your choise.
 
 Execute the below instructions
-1. sudo gropuadd docker
+1. sudo groupadd docker
 2. sudo usermod -aG docker jenkins
 3. chown root:docker /var/run/docker.sock
 
